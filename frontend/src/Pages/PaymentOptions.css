@@ -1,0 +1,62 @@
+.payment-container {
+    background-color: #17252a;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 700px;
+    margin-top: 530px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensures padding is included in the width */
+  }
+  
+  .payment-title {
+    font-size: 24px;
+    color: #49c5b6;
+    text-align: center;
+    margin-bottom: 10px; /* Reduced margin for closer alignment */
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjusted gap for closer spacing between items */
+    box-sizing: border-box; /* Ensures proper sizing */
+  }
+  
+  .payment-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .payment-option label {
+    font-size: 16px;
+  }
+  
+  .payment-details input {
+    width: 100%; /* Ensures input fields stay within the parent width */
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #49c5b6;
+    background-color: #e9f8f7;
+    box-sizing: border-box; /* Ensures proper sizing */
+  }
+  
+  .submit-button {
+    width: 100%; /* Button spans the entire form width */
+    background-color: #49c5b6;
+    color: #17252a;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box; /* Ensures proper sizing */
+  }
+  
+  .submit-button:hover {
+    background-color: #3baaa2;
+  }
+  

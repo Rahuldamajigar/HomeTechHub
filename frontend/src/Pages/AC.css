@@ -1,0 +1,82 @@
+.ac-service-container {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    animation: fadeIn 1.5s ease-in;
+    margin-top: 350px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .service-title {
+    font-size: 2.5em;
+    color: #005f73;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 1.2em;
+    color: #0a9396;
+    margin-bottom: 30px;
+  }
+  
+  .ac-service-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .service-card {
+    width: 250px;
+    background-color: rgb(243, 217, 182);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: slideUp 0.8s ease forwards;
+    transform: translateY(30px);
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .service-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .service-card h3 {
+    font-size: 1.5em;
+    color: #005f73;
+    margin: 15px 0;
+  }
+  
+  .service-card p {
+    font-size: 1em;
+    color: #0a9396;
+    padding: 0 15px 15px;
+  }
+  

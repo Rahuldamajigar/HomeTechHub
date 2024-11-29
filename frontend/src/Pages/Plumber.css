@@ -1,0 +1,114 @@
+.plumber-service {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 1400px;
+  }
+  
+  .plumber-hero {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  .hero-text {
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .plumber-info, .plumber-services, .plumber-testimonials, .plumber-contact {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+  
+  .plumber-info h2, .plumber-services h2, .plumber-testimonials h2, .plumber-contact h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .plumber-services {
+    background-color: #f9f9f9;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .service-card {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
+  }
+  
+  .service-card img {
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .plumber-testimonials {
+    background-color: #f1f1f1;
+  }
+  
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  blockquote {
+    padding: 15px;
+    background: #ffffff;
+    border-left: 4px solid black;
+    margin: 0;
+  }
+  
+  blockquote cite {
+    display: block;
+    font-size: 0.9em;
+    color: #666;
+    text-align: right;
+  }
+  
+  .plumber-contact {
+    text-align: center;
+  }
+  
+  .plumber-contact button {
+    padding: 12px 25px;
+    background-color: rgb(181, 138, 83);
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .plumber-contact button:hover {
+    background-color: black;
+  }
+  

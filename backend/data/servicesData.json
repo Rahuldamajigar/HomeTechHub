@@ -1,0 +1,62 @@
+[
+    {
+      "name": "Kitchen Repair",
+      "description": "Fix leaks, cabinets, and other kitchen essentials with our skilled professionals.",
+      "priceRange": "₹500 - ₹2000",
+      "imageUrl": "http://localhost:4001/public/images/Kitchen.avif",
+      "serviceProviders": [
+        { "name": "Rajesh Kumar", "rating": 4.8, "contact": "9876543210" },
+        { "name": "Priya Sharma", "rating": 4.5, "contact": "9876543211" }
+      ]
+    },
+    {
+      "name": "AC Repair",
+      "description": "Professional repair for split and window AC units. Fix cooling issues, gas refills, and more.",
+      "priceRange": "₹1000 - ₹5000",
+      "imageUrl": "https://example.com/images/ac-repair.jpg",
+      "serviceProviders": [
+        { "name": "Amit Verma", "rating": 4.6, "contact": "9876543212" },
+        { "name": "Neha Gupta", "rating": 4.7, "contact": "9876543213" }
+      ]
+    },
+    {
+      "name": "Electrician Repair",
+      "description": "Wiring, lighting installation, and circuit repair services by certified electricians.",
+      "priceRange": "₹400 - ₹2000",
+      "imageUrl": "https://example.com/images/electrician-repair.jpg",
+      "serviceProviders": [
+        { "name": "Ravi Tiwari", "rating": 4.9, "contact": "9876543214" },
+        { "name": "Anjali Desai", "rating": 4.6, "contact": "9876543215" }
+      ]
+    },
+    {
+      "name": "Plumber Repair",
+      "description": "Leak repairs, drain cleaning, and emergency plumbing services.",
+      "priceRange": "₹300 - ₹1500",
+      "imageUrl": "https://example.com/images/plumber-repair.jpg",
+      "serviceProviders": [
+        { "name": "Rahul Mehta", "rating": 4.8, "contact": "9876543216" },
+        { "name": "Sneha Patil", "rating": 4.7, "contact": "9876543217" }
+      ]
+    },
+    {
+      "name": "RO Repair",
+      "description": "Filter replacement and maintenance for all RO systems.",
+      "priceRange": "₹800 - ₹2500",
+      "imageUrl": "https://example.com/images/ro-repair.jpg",
+      "serviceProviders": [
+        { "name": "Arjun Singh", "rating": 4.5, "contact": "9876543218" },
+        { "name": "Meera Iyer", "rating": 4.6, "contact": "9876543219" }
+      ]
+    },
+    {
+      "name": "Washing Machine Repair",
+      "description": "Fix spin issues, motor failures, and other washing machine problems.",
+      "priceRange": "₹600 - ₹3000",
+      "imageUrl": "https://example.com/images/washing-machine-repair.jpg",
+      "serviceProviders": [
+        { "name": "Suresh Rao", "rating": 4.7, "contact": "9876543220" },
+        { "name": "Neetu Chawla", "rating": 4.8, "contact": "9876543221" }
+      ]
+    }
+  ]

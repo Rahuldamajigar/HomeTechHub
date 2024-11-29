@@ -1,0 +1,85 @@
+.kitchen-service-container {
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in;
+    margin-top: 350px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .service-title {
+    font-size: 2em;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .appliance-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .appliance-card {
+    width: 250px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: slideUp 0.8s ease forwards;
+    transform: translateY(30px);
+  }
+  
+  .appliance-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  h3 a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .appliance-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .appliance-card h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 15px 0;
+  }
+  
+  .appliance-card p {
+    font-size: 1em;
+    color: #666;
+    padding: 0 15px 15px;
+  }
+  

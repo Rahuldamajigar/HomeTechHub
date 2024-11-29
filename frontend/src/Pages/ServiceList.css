@@ -1,0 +1,21 @@
+.service-list {
+    margin-top: 600px;
+    margin-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  
+  .service-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
